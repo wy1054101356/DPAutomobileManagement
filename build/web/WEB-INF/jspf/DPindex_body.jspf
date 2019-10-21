@@ -1,0 +1,164 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="admin" style="font-size: 15px">
+    <div class="line-big">
+        <div class="xm6">
+            <div class="panel">
+                <div class="panel-head"><strong>项目信息</strong></div>
+                <table class="table">
+                    <tr>
+                        <td width="110" align="right">项目主题：</td>
+                        <td>东浦实训</td>
+                    </tr>
+                    <tr>
+                        <td width="110" align="right">项目题目：</td>
+                        <td>汽车产业信息管理系统</td>
+                    </tr>
+                    <tr>
+                        <td align="right">开发部门：</td>
+                        <td>湖北汽车工业学院 电院计算机系</td>
+                    </tr> 
+                    <tr>
+                        <td align="right">开发日期：</td>
+                        <td>2019/8/19 - 2019/8/26</td>
+                    </tr> 
+                </table>
+            </div>
+            <div class="panel">
+                <div class="panel-head"><strong>成员分工</strong></div>
+                <table class="table">
+                    <tr>
+                        <td width="110" align="right">负责人：</td>
+                        <td>李世东</td>
+                    </tr>
+                    <tr>
+                        <td align="right">主程：</td>
+                        <td>王洋</td>
+                    </tr>
+                    <tr>
+                        <td align="right">数据：</td>
+                        <td>岑溶 张泽超 曹洪</td>
+                    </tr> 
+                    <tr>
+                        <td align="right">测试：</td>
+                        <td>岑溶 张泽超 曹洪</td>
+                    </tr> 
+                </table>
+            </div>
+            <div class="panel">
+                <div class="panel-head"><strong>系统信息</strong></div>
+                <table class="table">
+                    <tr>
+                        <td  width="110" align="right">项目官网：</td>
+                        <td><a style='color: #0ae' href="http://wangyang.51mypc.cn">http://wangyang.51mypc.cn</td>
+                    </tr> 
+                    <tr>
+                        <td align="right">服务器：</td>
+                        <td>Apache Tomcat 7.0</td>
+                    </tr>
+                    <tr>
+                        <td align="right">程序语言：</td>
+                        <td>JSP + Servlet</td>
+                    </tr>
+                    <tr>
+                        <td align="right">数据库：</td>
+                        <td>Oracle 11g XE</td>
+                    </tr>    
+                    <tr>
+                        <td align="right">版本号：</td>
+                        <td>4.3.2</td>
+                    </tr> 
+
+                </table>
+            </div>
+        </div>
+        <div class="line-big">
+            <div class="xm6">
+                <div class="panel">
+                    <div class="panel-head"><strong>开发日志</strong></div>
+                    <table class="table">
+                        <tr>
+                            <td width="110" align="right">2019/08/19：</td>
+                            <td>
+                                阅读<a href="<%= request.getContextPath()%>/document/PRD.jsp" style=' color: #0ae'> 需求文档 </a>,确定题目,确定项目结构
+                                </br>
+                                撰写开发文档,设计数据库
+                                </br>
+                                部署基本项目,配置过滤器
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="110" align="right">2019/08/20：</td>
+                            <td>
+                                完成产品模型,数据访问接口
+                                </br>
+                                实现与数据库连接和操作
+                                </br>
+                                数据录入,模块和数据库测试
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">2019/08/21：</td>
+                            <td>
+                                完成用户登录验证与后台拦截
+                                </br>
+                                完成对零部件供应商的管理和操作
+                                </br>
+                                完成对产品项目的管理和操作
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td align="right">2019/08/22：</td>
+                            <td>
+                                完成文件上传和读取与写入数据库
+                                </br>
+                                优化数据录入操作 初步完成产品树目录
+                                </br>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td align="right">2019/08/23：</td>
+                            <td>
+                                优化树结构目录的显示
+                                </br>
+                                更新子节点查询与信息提取
+                                </br>
+                                完成项目完整树结构可视化
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td align="right">2019/08/25：</td>
+                            <td>
+                                优化项目文件结构 更新查询子树耗时
+                                </br>
+                                使用异步加载更新页面 修改子产品结构模式
+                                </br>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td align="right">2019/08/26：</td>
+                            <td>
+                                完成产品结构的供应商过滤
+                                </br>
+                                更新任意产品结构过滤
+                                </br>
+                                更新加载页面日志文档
+                                </br>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td align="right">2019/08/27：</td>
+                            <td>
+                                优化过滤算法 调整页面结构
+                                </br>
+                                总结项目,更新并完成<a href="<%= request.getContextPath()%>/document/DVP.jsp" style=' color: #0ae'> 开发文档 </a>
+                                </br>
+                            </td>
+                        </tr> 
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
